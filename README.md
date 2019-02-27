@@ -10,8 +10,9 @@ https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/ <br>
 C++容器可以自行改变大小并进行缩进，较为容易实现。
 
 
-## LeetCode010 : 盛最多水的容器        
+## LeetCode011 : 盛最多水的容器        
 https://leetcode-cn.com/problems/container-with-most-water/ <br>
+解题思路：遍历所有可能。这是最易实现，效率不高，后续其他方法让我在想想。
 
 ## LeetCode011:字符串相乘           
 https://leetcode-cn.com/problems/multiply-strings/ <br>
