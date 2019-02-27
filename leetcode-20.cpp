@@ -4,20 +4,20 @@ using namespace std;
 class Solution {
 public:
 	bool isValid(string s) {
-		int l = s.size();		//»ñÈ¡³¤¶È
-		stack<char> stack1;		//¶¨ÒåÕ»
+		int l = s.size();		//è·å–é•¿åº¦
+		stack<char> stack1;		//å®šä¹‰æ ˆ
 		int i = 0;
 		for (i = 0; i < l; i++) {
-			if (s[i] == '(' | s[i] == '[' | s[i] == '{') stack1.push(s[i]);		//½«À¨ºÅ×ó°ë±ßÑ¹ÈëÕ»
-			else {																//ÅĞ¶ÏÓÒ±ßÀ¨ºÅÊÇ·ñºÍ×ó°ë±ßÏà¶ÔÓ¦
+			if (s[i] == '(' | s[i] == '[' | s[i] == '{') stack1.push(s[i]);		//å°†æ‹¬å·å·¦åŠè¾¹å‹å…¥æ ˆ
+			else {									//åˆ¤æ–­æ˜¯å¦æ‰€æœ‰å¯¹åº”							//åˆ¤æ–­å³è¾¹æ‹¬å·æ˜¯å¦å’Œå·¦åŠè¾¹ç›¸å¯¹åº”
 				if (stack1.empty()) return false;
-				if (s[i] == ')' && stack1.top() != '(') return false;
-				if (s[i] == ']' && stack1.top() != '[') return false;
-				if (s[i] == '}' && stack1.top() != '{') return false;
+				if (s[i] == ')' & stack1.top() != '(') return false;
+				if (s[i] == ']' & stack1.top() != '[') return false;
+				if (s[i] == '}' & stack1.top() != '{') return false;
 				stack1.pop();
 			}
 		}
-		if (stack1.empty())  return true;										//ÅĞ¶ÏÊÇ·ñËùÓĞ¶ÔÓ¦
+		if (stack1.empty())  return true;						//åˆ¤æ–­æ ˆæ˜¯å¦å…¨éƒ¨å®ŒæˆåŒ¹é…		
 		else    return false;
 	}
 };
