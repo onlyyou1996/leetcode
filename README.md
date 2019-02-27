@@ -1,5 +1,5 @@
-## leetcode
-# LeetCode020:有效的括号      https://leetcode-cn.com/problems/valid-parentheses/
+# leetcode
+## LeetCode020:有效的括号      https://leetcode-cn.com/problems/valid-parentheses/
 此题采用栈进行解决，由于括号是配对的问题且有先后顺序，采用栈进行解决效果最好。
 
 LeetCode009: 删除排序数组中的重复项      https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
