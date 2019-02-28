@@ -14,8 +14,9 @@ C++容器可以自行改变大小并进行缩进，较为容易实现。
 https://leetcode-cn.com/problems/container-with-most-water/ <br>
 解题思路：遍历所有可能。这是最易实现，效率不高，后续其他方法让我在想想。
 
-## LeetCode011:字符串相乘           
+## LeetCode043:字符串相乘           
 https://leetcode-cn.com/problems/multiply-strings/ <br>
+解题思路：本来想采用转化为int数据类型进行计算，结果有可能超出范围；采用容器 书写乘法计算原理进行书写；
 
 ## LeetCode012 : 反转字符串          
 https://leetcode-cn.com/problems/reverse-string/ <br>
