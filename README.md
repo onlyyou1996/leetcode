@@ -18,8 +18,9 @@ https://leetcode-cn.com/problems/container-with-most-water/ <br>
 https://leetcode-cn.com/problems/multiply-strings/ <br>
 解题思路：本来想采用转化为int数据类型进行计算，结果有可能超出范围；采用容器 书写乘法计算原理进行书写；
 
-## LeetCode012 : 反转字符串          
+## LeetCode344: 反转字符串          
 https://leetcode-cn.com/problems/reverse-string/ <br>
+解题思路：利用ASCII码中数值差进行解题，设立temp进行解决。
 
 ## LeetCode013 : 反转字符串中的单词 III       
 https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/ <br>
