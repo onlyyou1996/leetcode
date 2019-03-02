@@ -28,3 +28,4 @@ https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/ <br>
 
 ## LeetCode014 : 除自身以外数组的乘积                 
 https://leetcode-cn.com/problems/product-of-array-except-self/ <br>
+解题思路：遍历数组，将每个数之前的数和之后的数相乘，暴力计算会出现超时
