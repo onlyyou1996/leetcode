@@ -26,6 +26,6 @@ https://leetcode-cn.com/problems/reverse-string/ <br>
 https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/ <br>
 解题思路：与上题相似，但是将本题分解为多个单词进行分别计算。
 
-## LeetCode014 : 除自身以外数组的乘积                 
+## LeetCode238: 除自身以外数组的乘积                 
 https://leetcode-cn.com/problems/product-of-array-except-self/ <br>
 解题思路：遍历数组，将每个数之前的数和之后的数相乘，暴力计算会出现超时
