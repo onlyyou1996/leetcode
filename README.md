@@ -22,6 +22,10 @@ https://leetcode-cn.com/problems/multiply-strings/ <br>
 https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/<br>
 解题思路：采用两个循环遍历数组。
 
+## LeetCode215: 除自身以外数组的乘积                 
+https://leetcode-cn.com/problems/kth-largest-element-in-an-array/submissions/ <br>
+解题思路：遍历数组，进行排序操作，返回对应数值
+
 ## LeetCode238: 除自身以外数组的乘积                 
 https://leetcode-cn.com/problems/product-of-array-except-self/ <br>
 解题思路：遍历数组，将每个数之前的数和之后的数相乘，暴力计算会出现超时
